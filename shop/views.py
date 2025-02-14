@@ -35,5 +35,9 @@ def getProducts(request):
     serializer = ProductSerializer(product_subset, many=True)
     return paginator.get_paginated_response(serializer.data)
 
+@api_view(['GET'])
+@permission_classes([AllowAny])
 def getProduct(request, id):
-    return HttpResponse("Under construction - get product by id.")
+    product = Product.objects.get(id=id)
+    serializer = ProductSerializer(product)
+    return Response(serializer.data)
