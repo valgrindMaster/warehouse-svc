@@ -1,0 +1,650 @@
+[
+{
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+        "name": "Electronics",
+        "description": "Gadgets and tech"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+        "name": "Clothing",
+        "description": "Apparel and accessories"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 3,
+    "fields": {
+        "name": "Furniture",
+        "description": "Home furnishings"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 4,
+    "fields": {
+        "name": "Computers & Laptops",
+        "description": "Laptops, desktops, and accessories"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 5,
+    "fields": {
+        "name": "Smartphones & Accessories",
+        "description": "Phones, cases, chargers"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 6,
+    "fields": {
+        "name": "Audio & Headphones",
+        "description": "Headphones, earbuds, speakers"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+        "name": "Laptop",
+        "description": "This all-purpose laptop comes pre-installed with a RTX graphics card that is sure to make your user interface pop right out of the screen!",
+        "price": "2300.95",
+        "category": 4,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 6,
+    "fields": {
+        "name": "Noise-Canceling Headphones",
+        "description": "Immersive audio with noise cancellation",
+        "price": "300.00",
+        "category": 6,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 7,
+    "fields": {
+        "name": "Wireless Earbuds",
+        "description": "True wireless earbuds with long battery life",
+        "price": "150.00",
+        "category": 6,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 8,
+    "fields": {
+        "name": "Smartwatch Pro",
+        "description": "Feature-rich smartwatch with health tracking",
+        "price": "400.00",
+        "category": 5,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 9,
+    "fields": {
+        "name": "Smartphone Max",
+        "description": "Flagship smartphone with advanced camera",
+        "price": "1100.00",
+        "category": 5,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 10,
+    "fields": {
+        "name": "Winter Jacket",
+        "description": "Warm and stylish winter jacket",
+        "price": "180.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 11,
+    "fields": {
+        "name": "Running Shoes",
+        "description": "Lightweight running shoes for optimal performance",
+        "price": "80.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 12,
+    "fields": {
+        "name": "Denim Jeans",
+        "description": "Classic denim jeans with a comfortable fit",
+        "price": "60.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 13,
+    "fields": {
+        "name": "Wool Sweater",
+        "description": "Soft and cozy wool sweater for colder days",
+        "price": "70.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 14,
+    "fields": {
+        "name": "Summer Dress",
+        "description": "Flowy and comfortable summer dress",
+        "price": "40.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 15,
+    "fields": {
+        "name": "Sofa",
+        "description": "Comfortable and stylish sofa for your living room",
+        "price": "800.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 16,
+    "fields": {
+        "name": "Armchair",
+        "description": "Modern armchair with a cozy design",
+        "price": "300.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 17,
+    "fields": {
+        "name": "Coffee Table",
+        "description": "Elegant coffee table with a glass top",
+        "price": "200.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 18,
+    "fields": {
+        "name": "Bookshelf",
+        "description": "Spacious bookshelf for your book collection",
+        "price": "150.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 19,
+    "fields": {
+        "name": "Dining Table",
+        "description": "Solid wood dining table for family gatherings",
+        "price": "500.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 20,
+    "fields": {
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse for comfortable use",
+        "price": "25.00",
+        "category": 1,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 21,
+    "fields": {
+        "name": "Bluetooth Keyboard",
+        "description": "Compact Bluetooth keyboard for your tablet or smartphone",
+        "price": "40.00",
+        "category": 1,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 22,
+    "fields": {
+        "name": "Portable Charger",
+        "description": "High-capacity portable charger for your devices",
+        "price": "30.00",
+        "category": 5,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 23,
+    "fields": {
+        "name": "Laptop Stand",
+        "description": "Adjustable laptop stand for better ergonomics",
+        "price": "20.00",
+        "category": 4,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 24,
+    "fields": {
+        "name": "USB-C Hub",
+        "description": "Multi-port USB-C hub for expanding your connectivity",
+        "price": "35.00",
+        "category": 4,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 25,
+    "fields": {
+        "name": "T-shirt",
+        "description": "Classic cotton T-shirt in various colors",
+        "price": "15.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 26,
+    "fields": {
+        "name": "Hoodie",
+        "description": "Comfortable hoodie for casual wear",
+        "price": "45.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 27,
+    "fields": {
+        "name": "Sneakers",
+        "description": "Stylish sneakers for everyday use",
+        "price": "70.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 28,
+    "fields": {
+        "name": "Backpack",
+        "description": "Durable backpack for school or travel",
+        "price": "50.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 29,
+    "fields": {
+        "name": "Sunglasses",
+        "description": "Polarized sunglasses for eye protection",
+        "price": "60.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 30,
+    "fields": {
+        "name": "Floor Lamp",
+        "description": "Modern floor lamp for ambient lighting",
+        "price": "120.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 31,
+    "fields": {
+        "name": "Nightstand",
+        "description": "Wooden nightstand with drawer for storage",
+        "price": "80.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 32,
+    "fields": {
+        "name": "Desk Chair",
+        "description": "Ergonomic desk chair for comfortable work",
+        "price": "150.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 33,
+    "fields": {
+        "name": "Wall Art",
+        "description": "Abstract wall art for adding a touch of color",
+        "price": "40.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 34,
+    "fields": {
+        "name": "Throw Pillow",
+        "description": "Soft and decorative throw pillow",
+        "price": "25.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 35,
+    "fields": {
+        "name": "Gaming Mouse",
+        "description": "High-precision gaming mouse with customizable buttons",
+        "price": "75.00",
+        "category": 1,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 36,
+    "fields": {
+        "name": "Mechanical Keyboard",
+        "description": "Responsive mechanical keyboard for gaming or typing",
+        "price": "120.00",
+        "category": 4,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 37,
+    "fields": {
+        "name": "Webcam",
+        "description": "High-definition webcam for video calls",
+        "price": "60.00",
+        "category": 4,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 38,
+    "fields": {
+        "name": "External Hard Drive",
+        "description": "Portable external hard drive for backup and storage",
+        "price": "80.00",
+        "category": 4,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 39,
+    "fields": {
+        "name": "Monitor",
+        "description": "27-inch monitor with high resolution",
+        "price": "250.00",
+        "category": 4,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 40,
+    "fields": {
+        "name": "Jeans",
+        "description": "Slim-fit jeans for a modern look",
+        "price": "70.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 41,
+    "fields": {
+        "name": "Sweater",
+        "description": "Knitted sweater for cozy warmth",
+        "price": "60.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 42,
+    "fields": {
+        "name": "Dress Shirt",
+        "description": "Formal dress shirt for special occasions",
+        "price": "50.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 43,
+    "fields": {
+        "name": "Socks",
+        "description": "Comfortable cotton socks",
+        "price": "10.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 44,
+    "fields": {
+        "name": "Belt",
+        "description": "Leather belt with a classic buckle",
+        "price": "30.00",
+        "category": 2,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 45,
+    "fields": {
+        "name": "Bed Frame",
+        "description": "Sturdy bed frame with wooden slats",
+        "price": "300.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 46,
+    "fields": {
+        "name": "Dresser",
+        "description": "Six-drawer dresser for storing clothes",
+        "price": "250.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 47,
+    "fields": {
+        "name": "TV Stand",
+        "description": "Modern TV stand with shelves for media components",
+        "price": "150.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 48,
+    "fields": {
+        "name": "Rug",
+        "description": "Area rug for adding warmth and style",
+        "price": "100.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 49,
+    "fields": {
+        "name": "Ottoman",
+        "description": "Versatile ottoman for seating or footrest",
+        "price": "80.00",
+        "category": 3,
+        "image_url": null
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 1,
+    "fields": {
+        "quantity_in_stock": 12
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 6,
+    "fields": {
+        "quantity_in_stock": 35
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 7,
+    "fields": {
+        "quantity_in_stock": 58
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 8,
+    "fields": {
+        "quantity_in_stock": 18
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 9,
+    "fields": {
+        "quantity_in_stock": 22
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 10,
+    "fields": {
+        "quantity_in_stock": 8
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 11,
+    "fields": {
+        "quantity_in_stock": 42
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 12,
+    "fields": {
+        "quantity_in_stock": 65
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 13,
+    "fields": {
+        "quantity_in_stock": 23
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 14,
+    "fields": {
+        "quantity_in_stock": 15
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 15,
+    "fields": {
+        "quantity_in_stock": 3
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 16,
+    "fields": {
+        "quantity_in_stock": 12
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 17,
+    "fields": {
+        "quantity_in_stock": 18
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 18,
+    "fields": {
+        "quantity_in_stock": 6
+    }
+},
+{
+    "model": "shop.inventory",
+    "pk": 19,
+    "fields": {
+        "quantity_in_stock": 4
+    }
+}
+]
