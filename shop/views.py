@@ -1,5 +1,3 @@
-
-from django.shortcuts import render
 from django.http import HttpResponse
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
@@ -9,6 +7,8 @@ from shop.models import Category, Product
 from shop.pagination import ProductPagination
 from shop.serializers import CategorySerializer, ProductSerializer
 
+@api_view(['GET'])
+@permission_classes([AllowAny])
 def index(request):
     return HttpResponse("Under construction - index.")
 

@@ -17,7 +17,7 @@ class ProductSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Product
-        fields = ['name', 'description', 'price', 'category', 'image_url', 'quantity_in_stock']
+        fields = ['id', 'name', 'description', 'price', 'category', 'image_url', 'quantity_in_stock']
 
     def get_quantity_in_stock(self, obj):
         """Fetch inventory quantity for the given product."""
