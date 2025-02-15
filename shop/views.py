@@ -8,19 +8,16 @@ from shop.pagination import ProductPagination
 from shop.serializers import CategorySerializer, ProductSerializer
 
 @api_view(['GET'])
-@permission_classes([AllowAny])
 def index(request):
     return HttpResponse("Under construction - index.")
 
 @api_view(['GET'])
-@permission_classes([AllowAny])
 def getCategories(request):
     categories = Category.objects.all()
     serializer = CategorySerializer(categories, many=True)
     return Response(serializer.data)
 
 @api_view(['GET'])
-@permission_classes([AllowAny])
 def getProducts(request):
     category_id = request.query_params.get('category_id')
 
@@ -36,7 +33,6 @@ def getProducts(request):
     return paginator.get_paginated_response(serializer.data)
 
 @api_view(['GET'])
-@permission_classes([AllowAny])
 def getProduct(request, id):
     product = Product.objects.get(id=id)
     serializer = ProductSerializer(product)
